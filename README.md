@@ -2,7 +2,13 @@
 
 A terminal design tool that allows for gradient art to be applied to text. It has full UTF-8 support, as well as a GIF to Text converter with different output options.
 
-Everything is controlled via a TUI, and there are simple instructions on how to use different features inside of the application.
+## Usage
+
+To use Designer, all you need to do is compile the application and then execute it.
+
+ 1. `go mod tidy`
+ 2. `go build .`
+ 3. Execute the compiled binary.
 
 ## Gradient
 
