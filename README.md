@@ -1,4 +1,4 @@
-# Designer
+# ⚜️ Designer
 
 A terminal design tool that allows for gradient art to be applied to text. It has full UTF-8 support, as well as a GIF to Text converter with different output options.
 
