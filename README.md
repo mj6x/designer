@@ -2,7 +2,7 @@
 
 A terminal design tool that allows for gradient art to be applied to text. It has full UTF-8 support, as well as a GIF to Text converter with different output options.
 
-## Usage
+## 👨🏻‍🏫 Usage
 
 To use Designer, all you need to do is compile the application and then execute it.
 
@@ -10,16 +10,16 @@ To use Designer, all you need to do is compile the application and then execute 
  2. `go build .`
  3. Execute the compiled binary.
 
-## Gradient
+## 🌈 Gradient
 
-### Features
+### 📄 Features
 
  - Multi-directional gradient support.
  - Full use of both RGB and HEX colours.
  - UTF-8 character support.
  - Unlimited colour input.
 
-### Usage
+### 👨🏻‍🏫 Usage
 
 Inside of your input file for gradients, you can use 'gradient tags.' These tags allow for you to choose the direction of a gradient, or wether you want the gradient to conclude at a certain point.
 
@@ -30,7 +30,7 @@ These tags are;
  - `horizontal` - Renders a left to right gradient.
  - `/` or `stop` - Stops the gradient from this point.
 
-#### Example
+#### ⌨️ Example
 
 ```
 <radial>All of this text from here to the next tag
@@ -45,9 +45,9 @@ gradient applied
 to it.<stop>And this will have no colour.
 ```
 
-## GIF Converter
+## 📽️ GIF Converter
 
-### Features
+### 📄 Features
 
  - ANSI and ASCII GIF outputs.
  - Can be converted into Go files, Python files, and TermFX files.
