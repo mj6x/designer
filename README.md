@@ -2,6 +2,12 @@
 
 A terminal design tool that allows for gradient art to be applied to text. It has full UTF-8 support, as well as a GIF to Text converter with different output options.
 
+![Main Menu](./images/main_menu.png)
+
+![Gradient Menu](./images/gradient_menu.gif)
+
+![GIF Menu](./images/gif_menu.gif)
+
 ## 👨🏻‍🏫 Usage
 
 To use Designer, all you need to do is compile the application and then execute it.
