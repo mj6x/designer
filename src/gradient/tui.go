@@ -51,8 +51,7 @@ func NewTUI() tui {
 	return tui{fileInput: fileInput, colourInput: colourInput}
 }
 
-// Update handles keyboard input, manages input focus, and updates
-// the model state when colours are added or removed.
+// Update handles keyboard input, manages input focus, and updates the model state when colours are added or removed.
 func (t tui) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	switch msg := msg.(type) {
 	case tea.KeyMsg:
@@ -141,8 +140,7 @@ func (t tui) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	return t, nil
 }
 
-// View renders the gradient interface, including the live preview,
-// colour input, file input, and keyboard shortcut hints.
+// View renders the gradient interface, including the live preview, colour input, file input, and keyboard shortcut hints.
 func (t tui) View() string {
 	colourLabel := "Colour"
 	fileLabel := "Input file"
