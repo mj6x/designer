@@ -50,7 +50,6 @@ to it.<stop>And this will have no colour.
 ### 📄 Features
 
  - ANSI and ASCII GIF outputs.
- - Can be converted into Go files, Python files, and TermFX files.
  - Can fully resize GIF outputs to suit terminal size.
  - Can use both URLs and files when converting GIFs.
  - Frame-skipping (Makes playback less laggy on lower-powered machines.)
