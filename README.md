@@ -54,5 +54,3 @@ to it.<stop>And this will have no colour.
  - Can use both URLs and files when converting GIFs.
  - Frame-skipping (Makes playback less laggy on lower-powered machines.)
  - Ability to loop a GIF multiple times.
- - Supports `.gif`, `.jpeg`, `.png`, and `.webp` files.
-    - Note: When rendering images, there will be no loop options as it is a static image.
