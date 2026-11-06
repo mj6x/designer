@@ -52,5 +52,4 @@ to it.<stop>And this will have no colour.
  - ANSI and ASCII GIF outputs.
  - Can fully resize GIF outputs to suit terminal size.
  - Can use both URLs and files when converting GIFs.
- - Frame-skipping (Makes playback less laggy on lower-powered machines.)
  - Ability to loop a GIF multiple times.
