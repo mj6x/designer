@@ -157,7 +157,7 @@ func (t tui) View() string {
 func main() {
 	p := tea.NewProgram(
 		NewTUI(),
-		tea.WithAltScreen(),
+		tea.WithMouseCellMotion(),
 	)
 
 	if _, err := p.Run(); err != nil {
