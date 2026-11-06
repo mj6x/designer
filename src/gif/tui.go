@@ -268,13 +268,18 @@ func (t tui) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			var cmd tea.Cmd
 			t.formatList, cmd = t.formatList.Update(msg)
 			return t, cmd
+
 		case 2:
 			t.widthSlider.Update(msg)
+
 		case 3:
 			t.heightSlider.Update(msg)
+
 		case 4:
 			t.loopsSlider.Update(msg)
 		}
+
+		return t, nil
 	}
 
 	if t.focus == 0 {
